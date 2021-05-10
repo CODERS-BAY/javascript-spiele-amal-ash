@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+image{
+    max-width: 100%;
+}
+
+body,html{
+    
+    margin: 50px;
+    padding: 50px;
+}
+
+:root{
+    --primary:rgb(200, 178, 202);
+    --secondary:rgb(73, 62, 139);
+}
+body{
+    background-image: url(../image/galaxy-background.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+label{
+    color: rgb(227, 214, 230);
+    font-size: 1rem;
+}
+.screen{ 
+    box-shadow: 1px 1px 10px rgb(209, 199, 199);
+    padding: 40px;
+    text-align: center;
+    display: none;
+
+}
+.active{
+    box-shadow: 1px 1px 10px rgb(209, 199, 199);
+   
+   
+    
+}
+.active{
+    display: block;
+}
+.butten{
+    background-color: var(--secondary);
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px;
+}
+.butten:hover{
+    background-color: var(--primary);
+    cursor: pointer;
+}
+

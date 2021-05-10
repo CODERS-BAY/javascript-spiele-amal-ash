@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SCHERE, STEIN, PAPIER</title>
+        <link rel="stylesheet" href="css/SCHERE, STEIN, PAPIER.css">
+    </head>
+    <body id="myBody">
+        <div id="screen1" class="active screen">
+            <!--<label>Wieviele Mal wilst du spielen?</label>
+        <br>
+    <input id="counterInput" type="number" min="1"/>
+        <br>
+        <button class="butten" onclick="chaangeScreen()">los</button>-->
+        <label>Wieviele Mal wilst du spielen?</label>
+            
+            <input type="number" id="tryCounter" name="tryCounter">
+            <br>
+            <br>
+            <div class="butten" onclick="chaangeScreen()">los</div>
+    </div>
+        <div id="screen2" class="screen">
+            <h2 id="computerchoice">Computer Choice:<br>
+                <span id="pccounterContainer"></span>
+                <span id="pccounterContainer1"></span></h2>
+        
+            <h2 id="userchoice">Your Choice:<br>
+                <span id="usercounterContainer"></span>
+                <span id="usercounterContainer1"></span>
+            </h2>           
+            <img src="image/SCHERE.jpg" id="SCHERE" onclick="play(1)" />
+            <img src="image/STEIN.jpg"  id="STEIN"  onclick="play(2)" />
+            <img src="image/PAPIER.jpg" id="PAPIER" onclick="play(3)" />
+         
+
+
+        <!--<button class="choice" id="SCHERE">SCHERE</button>
+        <button class="choice" id="STEIN">STEIN</button>
+        <button class="choice" id="PAPIER">PAPIER</button>-->
+        <div class="butten" onclick="replay()">Wieder speilen</div>
+       <!-- <button class="butten back" >Wieder speilen</button>-->
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+        <script type="text/javascript" src="js/SCHERE, STEIN, PAPIER.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    margin: 50px;
+    padding: 50px;
+}
+body {
+    background-image: url(../image/guess_back.jpg);
+   /* width: 100vw;
+    height: 100vh;*/
+    background-size: cover;
+    background-position: center;
+}
+#countainer {
+    display: flex;
+    flex-direction: row;
+}
+.guess{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.button{
+    background-color: green;
+    display: inline-block;
+    color: #fff;
+   
+}
+.button:hover{
+    background-color: green;
+    cursor: pointer;
+}
+/*input button{
+    display: flex;
+}*/
+img{
+    height: 200px;
+    margin: 10px;
+    width: 200px;
+}
+h1{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    justify-content: center;
+    color: green;
+}
