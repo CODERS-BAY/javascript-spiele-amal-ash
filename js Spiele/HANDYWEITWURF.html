@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HANDYWEITWURF</title>
+        <link rel="stylesheet" href="css/HANDYWEITWURF.css">
+    </head>
+    
+    <body>
+        
+        <div id="screen1" class="active screen">
+
+           
+            <label>Auf welchem Planeten möchten sie spielen?</label>
+            <select id="planet">
+                <option value="9.81">Erde</option>
+                <option value="1.62">Mond</option>
+                <option value="3.69">Mars</option>
+                <option value="24.79">Jupiter</option>
+            </select>
+            <br>
+            <br>
+            
+            <label>wieviele Versuche brauchest du dazu?</label>
+            
+            <input type="number" id="tryCounter" name="tryCounter">
+            <br>
+            <br>
+            <div class="butten" onclick="chaangeScreen()">los</div>
+
+            
+        </div>
+        <div id="screen2" class="screen">
+            <label>Winkel eingeben (1°-90°)</label>
+            <input type="number" id="Winkel">
+            <br>
+            <br>
+            <label>kraft eingeben</label>
+            <input type="number" id="kraft" name="kraft">
+            <div class="butten" onclick="werfen()" id="WERFEN" >WERFEN</div>
+            <br>
+        <div class="butten" onclick="replay()">Wieder speilen</div>
+        
+        <script type="text/javascript" src="js/HANDYWEITWURF.js"></script>
+    </body>
+</html>
